@@ -1,8 +1,10 @@
+//Exercises 2 
+
 function balikString(str){
-    var tampung =''
+    var output =''
     for( i=str.length-1;i>=0;i--){
-        tampung+=str[i]
-    }return tampung
+        output+=str[i]
+    }return output
 }
 
 console.log(balikString('Hello world!'))
